@@ -9,7 +9,11 @@
 #define LOGGER_CONFIG_H_
 
 // logger configuration file location
+<<<<<<< HEAD
 #define LOG4CXX_CONF_PATH "/home/ubuntu/videoApp/config/log4cxx.conf"
+=======
+#define LOG4CXX_CONF_PATH "/home/nvidia/videoApp/config/log4cxx.conf"
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 
 // logger config
 #define LOG_OBJECT_NAME 1 //TODO REMOVE

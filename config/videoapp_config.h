@@ -24,14 +24,22 @@
 
 // Config options.
 #define LOG4CXX_CONF_FILE_PATH_POS 1 //TODO REMOVE
+<<<<<<< HEAD
 #define CONF_PATH "/home/ubuntu/videoApp/config/va.conf.xml"
+=======
+#define CONF_PATH "/home/nvidia/videoApp/config/va.conf.xml"
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 #define CONF_SYS "SysConf"
 #define CONF_PIPE "PipeConf"
 #define CONF_COM "ComConf"
 #define CONF_DBG "DbgConf"
 
 // PipelineType options.
+<<<<<<< HEAD
 #define PIPE_TYPE 0
+=======
+#define PIPE_TYPE 0 //1  USB 0 CSI
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 
 // Default values for the visionworks object tracker.
 #define VXOT_BB_DECREASING_RATIO_DEF 1.0

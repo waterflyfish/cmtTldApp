@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsys id="com">
 	<channel id="stdUDP" type="udp">
+<<<<<<< HEAD
 		<target ip="10.42.0.1" port="8002" />
 		<listen ip="10.42.0.82" port="8002" />
+=======
+		<target ip="192.168.1.10" port="8002" />
+		<listen ip="192.168.1.82" port="8002" />
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 		<status>
 			<msg id="65000" sysId="23" compId="34" />
 			<msg id="65000" sysId="233" compId="34" />

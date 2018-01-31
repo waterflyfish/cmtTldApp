@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug>
+<<<<<<< HEAD
 	<file path="/home/ubuntu/videoApp/video.mp4" />
+=======
+	<file path="" />
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 	<vw_ot>
 		<tracking enable="1" />
 		<pre_obj>

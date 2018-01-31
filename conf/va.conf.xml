@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <system id="main">
+<<<<<<< HEAD
 	<subsystem type="com" conf="/home/ubuntu/videoApp/config/com.conf.xml" />
 	<subsystem type="pipe" conf="/home/ubuntu/videoApp/config/pipe.conf.xml" />
 	<debug conf="/home/ubuntu/videoApp/config/debug.conf.xml" />
+=======
+	<subsystem type="com" conf="/home/nvidia/videoApp/config/com.conf.xml" />
+	<subsystem type="pipe" conf="/home/nvidia/videoApp/config/pipe.conf.xml" />
+	<debug conf="/home/ubuntu/nvidia/config/debug.conf.xml" />
+>>>>>>> b0f5660269877cfc32746dc0f81f06248d1a0a20
 	<mav sysId="11" compId="22">
 		<status msgId="65000" int="2" />
 		<status msgId="65001" int="1" />
