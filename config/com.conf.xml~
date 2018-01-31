@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsys id="com">
+	<channel id="stdUDP" type="udp">
+		<target ip="192.168.0.107" port="5001" />
+		<listen ip="192.168.0.103" port="5000" />
+		<status>
+			<msg id="65000" sysId="23" compId="34" />
+			<msg id="65000" sysId="233" compId="34" />
+			<msg id="65001" sysId="235" compId="345" />
+			<msg id="65001" sysId="2335" compId="345" />
+			<msg id="65101" sysId="235" compId="345" />
+			<msg id="65101" sysId="2335" compId="345" />
+		</status>
+	</channel>
+	<channel id="rosUDP" type="udp">
+		<target ip="127.0.0.1" port="6001" />
+		<listen ip="0.0.0.0" port="6000" />
+		<status>
+			<msg id="65000" sysId="23" compId="34" />
+			<msg id="65000" sysId="233" compId="34" />
+			<msg id="65101" sysId="235" compId="345" />
+			<msg id="65101" sysId="2335" compId="345" />
+			<msg id="65001" sysId="235" compId="345" />
+			<msg id="65001" sysId="2335" compId="345" />
+		</status>
+	</channel>
+</subsys>
